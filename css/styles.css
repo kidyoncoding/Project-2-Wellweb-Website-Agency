@@ -1,0 +1,413 @@
+body {
+    background-color: #AFD3E2;
+    color: black;
+    font-family: "Asap", sans-serif;
+    text-align: center;
+    margin: 0;
+
+}
+
+footer {
+    background-color: #101215;
+    color: #7d8492;
+    font-family: "Asap", sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    background-color:#101215;
+    display: flex;
+    gap:10px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    align-items: center;
+    padding:0;
+    
+
+}
+
+.logo {
+    font-size:45px;
+    background-color: #101215;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    align-self: center;
+    text-decoration: none;
+}
+.logo:hover{
+    font-weight: bolder;
+}
+
+.languages a{
+    text-decoration: none;
+    padding:3px;
+    font-size: 20px;
+    color:white;
+}
+.languages a:hover{
+    font-weight: bolder;
+    color:#19A7CE;
+
+}
+
+.trial-button-small {
+
+    background-color: #101215;
+    font-size: 20px;
+    background-size: cover;
+    padding: 10px 30px 10px 30px;
+    align-self: center;
+    margin:0;
+    font-weight: bold;
+    background-color: #146C94;
+
+
+}
+.trial-button-small:hover {
+    background-color: #19A7CE;
+}
+
+.nav-prices,
+.nav-fields,
+.nav-themes,
+.nav-customers {
+    font-weight: bold;
+    font-size: larger;
+    
+    margin:0;
+    justify-content:center;
+    align-content: center;
+
+}
+.nav-prices{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+
+.link-navbar{
+    color:#19A7CE;
+    text-decoration: none;
+}
+.link-navbar:hover{
+    font-weight: bolder;
+    color:white;
+
+}
+
+.menu-mobile{
+    display: none;
+    height:52px;
+}
+
+.slogan1 {
+    display: flex;
+    align-items: center;    
+
+}
+.slogan1-heading{
+    font-size: 35px;
+    color:#146C94;
+    margin-top:0;
+}
+.slogan1-pic{
+    width:60%;
+    padding:10px;
+    margin-top:-180px;
+}
+.slogan1-box{
+    width:40%;
+    padding: 10px 10px 0 10px;
+    font-weight: bold;
+    margin-top:-180px;
+
+}
+.slogan1-contact,.contact-now{
+    background-color:#54B435;
+    font-weight: bold;
+    align-items: center;
+    padding:10px;
+    font-size:30px;
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    margin-bottom:20px;
+}
+.contact-list {
+    display:flex;
+    flex-direction: column;
+    position:sticky;
+    top:40%;
+    text-align: end;
+
+}
+.contact-list img{
+    width:50px;
+    border-radius: 100%;
+    padding:5px;
+}
+
+.benefit2 {
+    height: 200px;
+
+}
+
+.themes {
+    height: 400px;
+
+}
+.templates{
+    background-color: #19A7CE;
+    margin:0;
+    padding:0;
+
+}
+.templatestwo{
+    margin-top:-180px;
+}
+
+.templates-heading{
+    padding:35px; 
+    font-size:35px;
+    color:white;
+    margin:0;
+}
+
+.nav-templates {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px;
+    align-content: center;
+    margin:0 0 10px 0;
+    padding:20px;
+}
+
+
+.template-pic{
+    width:30%;
+    height:45%;
+}
+
+.template-word{
+    font-weight: bold;
+    
+}
+.benefit1{
+    background-color: white;
+}
+.benefit1-heading{
+    font-size: 35px;
+    color:black;
+    padding:20px;
+    margin:0;
+}
+
+.benefit1-boxes{
+    display:flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    border-radius: 20%;
+    
+
+}
+
+.benefit1-box{
+    flex:1;
+    background-color: #146C94;
+    padding:20px;
+    margin:10px;
+    border-radius: 5%;
+    color:white;
+    
+}
+.benefit1-pic{
+    width:50%;
+
+}
+
+.slogan2 {
+    height: 200px;
+
+}
+
+.qna {
+    height: 300px;
+
+}
+
+.footer1 {
+    display: flex;
+    margin: 0 50px 0 50px;
+    gap:10px;
+
+
+}
+
+.footerbox {
+    flex: 1;
+    flex-direction: column;
+    text-align: left;
+}
+
+.link-footer {
+    color: #7d8492;
+    text-decoration: none;
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+.phone-mail-icon {
+    width: 20px;
+    background-color: #7d8492;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.social-media-icon {
+    width: 40px;
+    padding: 5px;
+}
+
+
+hr {
+    margin: 0;
+}
+
+.copyright {
+    margin: 0;
+    padding: 10px;
+}
+
+
+@media (max-width:630px) {
+
+    .template-pic{
+        width:30%;
+        height:30%;
+    }
+
+    .navbar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+
+
+    .slogan1{flex-direction: column;}
+    .slogan1-box,.slogan1-pic{
+        width:100%;
+    }
+
+    .footer1 {
+        flex-direction: column;
+        margin: 0 10px 0 10px;
+    }
+}
+
+@media (max-width:400px) {
+    .benefit1-boxes{
+        display:flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        border-radius: 20%;
+        
+    
+    }
+}
+
+@media (max-width:319px) {
+    .logo{
+
+        font-size: 20px;
+        padding:5px;
+    }
+    .menu-mobile{
+        height:20px;
+    }
+
+   
+}
+.price-boxes{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin:auto 30px auto 30px;
+    
+}
+.price-boxes ul{
+    list-style-type:none;
+    text-align: left;
+    line-height: 2;
+}
+
+
+.original-price{
+    text-decoration: line-through;
+}
+
+.discount-price{
+    
+}
+
+.body-content{
+    margin-top:-130px;
+    margin-bottom:50px;
+    text-decoration: none;
+}
+.body-content img{
+    width:100px;
+    margin:10px;
+}
+.body-content h1{
+    margin:0;
+    padding:10px;
+    font-size:40px;
+}
+
+.original-price{
+    font-style: italic;
+    font-size:20px;
+}
+.discount-price{
+    font-size:40px;
+    font-weight: bold;
+    margin:20px;
+    color:white;
+}
+.pack-name{
+    font-size:25px;
+    font-weight: bold;
+    color:yellow
+}
+.price-box-1{
+    background-color:#19A7CE ;
+    border-radius: 5%;
+    min-width:250px;
+    margin:20px;
+}
+
+.price-box-2{
+    background-color: #9384D1;
+    border-radius: 5%;
+    min-width:250px;
+    margin:20px;
+
+}
+.price-box-3{
+    background-color:#54B435;
+    border-radius: 5%;
+    min-width:250px;
+    margin:20px;
+
+}
+
+.contact-for-quotation{
+    padding:20px;
+}
